@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>th-luyen-tap-voi-cau-truc-if-else-if</title>
+</head>
+<body>
+
+<script>
+    let userName = prompt('Tên đăng nhập','');
+    if (userName=='Admin'){
+        let Password = prompt('Nhập mật khẩu','');
+        if (Password=='TheMaster'){
+            alert('Welcome');
+        } else if (Password=='null in'){
+            alert('Canceled');
+        } else {
+            alert('Wrong password');
+        }
+    } else if (userName=='null in'){
+        alert('canceld.');
+    }else {
+        alert('I don’t know you')
+    }
+</script>
+
+</body>
+</html>
